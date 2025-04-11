@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# Django
+*.sqlite3
+db.sqlite3
+*.pyc
+
+# Environments
+.env
+.env.*
+.venv/
+venv/
+ENV/
+env/
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# PyCharm
+.idea/
+
+# Migrations (optional: فقط لو بتفضل توليدها يدويًا لكل مرة)
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# Static/media files (لو بتستخدم collectstatic في الإنتاج)
+staticfiles/
+media/
+
+# JWT tokens أو أي ملفات مؤقتة
+*.jwt
